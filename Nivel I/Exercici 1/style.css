@@ -15,14 +15,14 @@ header .logo,
 header .nav,
 header .social {
 
-    flex 1;
-    margin 5px;
+    flex: 1;
+    margin: 5px;
     text-align: center;
     background-color:indianred;
 }
 
 .banner{
-    background-color: darkgoldenrod;
+    background-color:crimson;
     padding: 30px;
     text-align: center;
     font-size: 1.5em;
@@ -31,7 +31,7 @@ header .social {
 
 main{
     display: flex;
-    gap: 20pax;
+    gap: 20px;
     margin: 20px 0;
 }
 
@@ -46,7 +46,7 @@ section{
 
 aside{
     flex: 1;
-    background-color:blue;
+    background-color:darkblue;
     padding: 10px;
 }
 
@@ -54,6 +54,7 @@ aside{
     background-color:darkblue;
     padding: 20px;
     color: white;
+    text-align: center;
 }
 
 .navegacion{
@@ -71,7 +72,7 @@ aside{
 }
 
 .footer{
-    background-color:burlywood;
+    background-color:indianred;
     padding: 20px;
     text-align: center;
 }
